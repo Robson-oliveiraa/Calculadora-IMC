@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController controllerAlturar = TextEditingController();
   String resultado = '';
 
+  // ignore: non_constant_identifier_names
   void _ClearResultado() {
     setState(() {
 
@@ -108,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 16,
               ),
 
-              Container(
+              SizedBox(
                 width: 200,
                 child: ElevatedButton(
                   onPressed: (){
